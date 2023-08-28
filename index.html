@@ -7,17 +7,15 @@
 </head>
 <body>
   <script>
-    function toSquare200(){
-      let numero = 15
-      let square
-      do{
-        square = numero*numero
-        console.log(square)
-        numero++
-      }while(numero<=200)  
+    function somaNumero(){
+      let soma = 0
+      for(let i = 1; i <= 100; i++){
+        soma += i
+      }
+      console.log(soma)
     }
 
-    toSquare200()
+    somaNumero()
   </script>
 </body>
 </html>
