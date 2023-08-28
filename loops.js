@@ -61,3 +61,16 @@
 // }
 
 // toSquare()
+
+// 8
+// function toSquare200(){
+//   let numero = 15
+//   let square
+//   do{
+//     square = numero*numero
+//     console.log(square)
+//     numero++
+//   }while(numero<=200)  
+// }
+
+// toSquare200()
