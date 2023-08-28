@@ -7,15 +7,17 @@
 </head>
 <body>
   <script>
-    function inDescendingDirection(){
-      let numero = 10
-      while(numero >= 0) {
-        console.log (numero) 
-        numero--  
-      }   
+    function toSquare(){
+      let numero = 1
+      let square
+      do{
+        square = numero*numero
+        console.log(square)
+        numero++
+      }while(numero<=10)  
     }
 
-    inDescendingDirection()
+    toSquare()
   </script>
 </body>
 </html>

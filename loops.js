@@ -48,3 +48,16 @@
 // }
 
 // inDescendingDirection()
+
+// 7
+// function toSquare(){
+//   let numero = 1
+//   let square
+//   do{
+//     square = numero*numero
+//     console.log(square)
+//     numero++
+//   }while(numero<=10)  
+// }
+
+// toSquare()
