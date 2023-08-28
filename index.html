@@ -7,15 +7,15 @@
 </head>
 <body>
   <script>
-    function somaNumero(){
-      let soma = 0
-      for(let i = 1; i <= 100; i++){
-        soma += i
-      }
-      console.log(soma)
+    function div4(){
+      let numero = 0
+      do{
+        if(numero % 4 === 0) console.log(numero)
+        numero++
+      }while(numero < 200)
     }
 
-    somaNumero()
+    div4()
   </script>
 </body>
 </html>

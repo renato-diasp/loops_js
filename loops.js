@@ -85,3 +85,14 @@
 // }
 
 // somaNumero()
+
+// 10
+// function div4(){
+//   let numero = 0
+//   do{
+//     if(numero % 4 === 0) console.log(numero)
+//     numero++
+//   }while(numero < 200)
+// }
+
+// div4()
