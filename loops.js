@@ -96,3 +96,18 @@
 // }
 
 // div4()
+
+// 11
+// function somaMedia(){
+//   let soma = 0
+//   let contadorMedia = 0
+//   let media 
+//   for(let i = 50; i <= 70; i+=2){
+//     soma += i
+//     contadorMedia++
+//   }
+//   media = soma / contadorMedia
+//   console.log(`A soma é ${soma} e a média é ${media}`)
+// }
+
+//  somaMedia() 

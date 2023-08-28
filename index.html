@@ -7,15 +7,21 @@
 </head>
 <body>
   <script>
-    function div4(){
-      let numero = 0
-      do{
-        if(numero % 4 === 0) console.log(numero)
-        numero++
-      }while(numero < 200)
+    function somaMedia(){
+      let soma = 0
+      let contadorMedia = 0
+      let media 
+      for(let i = 50; i <= 70; i+=2){
+        soma += i
+        contadorMedia++
+      }
+      media = soma / contadorMedia
+      console.log(`A soma é ${soma} e a média é ${media}`)
     }
 
-    div4()
+     somaMedia() 
+
+    
   </script>
 </body>
 </html>
