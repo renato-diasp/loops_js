@@ -111,3 +111,20 @@
 // }
 
 //  somaMedia() 
+
+// 12
+// function fibonacciNumbers(){
+//   let sequenciaFinoncci = []
+//   for(let i = 0; i < 15; i++){
+//     if(i <= 1){
+//       sequenciaFinoncci.push(i)
+//     }else{
+//       let proximoNumero = sequenciaFinoncci[i - 1] + sequenciaFinoncci[i - 2]
+//       sequenciaFinoncci.push(proximoNumero)
+//     }
+//   }
+
+//   console.log(sequenciaFinoncci)
+// }
+
+// fibonacciNumbers()
