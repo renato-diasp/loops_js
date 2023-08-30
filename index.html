@@ -7,19 +7,43 @@
 </head>
 <body>
   <script>
-let numero = parseFloat(prompt('Informe um número: '))
-let contadora = 0
-let soma = 0
-while(Number.isInteger(numero) && numero > 0 && numero < 10){
-  soma += numero
-  contadora++
-  numero = parseFloat(prompt('Informe um número: '))
-}
-let media = soma / contadora
-alert(`A soma dos números informados é ${soma} e sua média é ${media.toFixed(2)}`)
+let votoCandidato = prompt('Vote no candidato escolhido:\n\n "a" Para o candidato A\n "b" Para o candidato B\n "c" Para o candidato C\n\n "x" Para sair do sistema ')
 
-   
- 
+let votosCandidatoA = 0
+let votosCandidatoB = 0
+let votosCandidatoC = 0
+
+while(votoCandidato === "a" || votoCandidato === "b" || votoCandidato === "c" || votoCandidato === "x" || votoCandidato != "x"){
+  while(votoCandidato === "a"){
+    alert('Voto computado com sucesso')
+    votosCandidatoA++
+    votoCandidato = prompt('Vote no candidato escolhido:\n\n "a" Para o candidato A\n "b" Para o candidato B\n "c" Para o candidato C\n\n "x" Para sair do sistema ')
+  }
+
+  while(votoCandidato === "b"){
+    alert('Voto computado com sucesso')
+    votosCandidatoB++
+    votoCandidato = prompt('Vote no candidato escolhido:\n\n "a" Para o candidato A\n "b" Para o candidato B\n "c" Para o candidato C\n\n "x" Para sair do sistema ')
+  }
+
+  while(votoCandidato === "c"){
+    alert('Voto computado com sucesso')
+    votosCandidatoC++
+    votoCandidato = prompt('Vote no candidato escolhido:\n\n "a" Para o candidato A\n "b" Para o candidato B\n "c" Para o candidato C\n\n "x" Para sair do sistema ')
+  }
+
+  if(votoCandidato === "x"){
+    alert(`O candidato A tem ${votosCandidatoA} voto(s), O candidato B tem ${votosCandidatoB} voto(s) e o candidato C tem ${votosCandidatoC} voto(s) `)
+     break
+    }else if (votoCandidato != "a" && votoCandidato != "b" && votoCandidato != "c" && votoCandidato != "x"){
+    alert('Candidato inválido, vote novamente')
+    votoCandidato = prompt('Vote no candidato escolhido:\n\n "a" Para o candidato A\n "b" Para o candidato B\n "c" Para o candidato C\n\n "x" Para sair do sistema ')
+  }
+     }
+
+
+
+
 
     
  
