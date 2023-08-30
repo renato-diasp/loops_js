@@ -148,3 +148,15 @@
 //   }
 
 //   alert(`Cadastro realizado com sucesso, usuário ${user} autenticado`)
+
+// 16
+// let numero = parseFloat(prompt('Informe um número: '))
+// let contadora = 0
+// let soma = 0
+// while(Number.isInteger(numero) && numero > 0 && numero < 10){
+//   soma += numero
+//   contadora++
+//   numero = parseFloat(prompt('Informe um número: '))
+// }
+// let media = soma / contadora
+// alert(`A soma dos números informados é ${soma} e sua média é ${media.toFixed(2)}`)
