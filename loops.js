@@ -128,3 +128,12 @@
 // }
 
 // fibonacciNumbers()
+
+// 14
+// let numero = parseFloat(prompt('Por favor, digite um numero:'))
+//   while(isNaN(numero) || numero < 0 || numero > 10){
+//     alert('Digite um número válido')
+//     numero = parseInt(prompt('Por favor, digite um numero:'))
+//   }
+
+//   alert(`O número atende aos requesitos, o número digitado é ${numero}`)

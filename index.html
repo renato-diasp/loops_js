@@ -7,22 +7,14 @@
 </head>
 <body>
   <script>
-    function fibonacciNumbers(){
-      let sequenciaFinoncci = []
-      for(let i = 0; i < 15; i++){
-        if(i <= 1){
-          sequenciaFinoncci.push(i)
-        }else{
-          let proximoNumero = sequenciaFinoncci[i - 1] + sequenciaFinoncci[i - 2]
-          sequenciaFinoncci.push(proximoNumero)
-        }
-      }
+let numero = parseFloat(prompt('Por favor, digite um numero:'))
+  while(isNaN(numero) || numero < 0 || numero > 10){
+    alert('Digite um número válido')
+    numero = parseInt(prompt('Por favor, digite um numero:'))
+  }
 
-      console.log(sequenciaFinoncci)
-    }
-
-    fibonacciNumbers()
-
+  alert(`O número atende aos requesitos, o número digitado é ${numero}`)
+   
  
 
     
