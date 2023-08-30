@@ -137,3 +137,14 @@
 //   }
 
 //   alert(`O número atende aos requesitos, o número digitado é ${numero}`)
+
+// 15
+// let user = prompt('Por favor, digite um nome de usuário:')
+// let password = prompt('Por favor, cadastre uma senha:')
+//   while(user === password){
+//     alert('Usuário e senha não podem ser iguais, cadastre novamente')
+//     user = prompt('Por favor, digite um nome de usuário:')
+//     password = prompt('Por favor, cadastre uma senha:')
+//   }
+
+//   alert(`Cadastro realizado com sucesso, usuário ${user} autenticado`)
