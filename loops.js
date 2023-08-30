@@ -129,6 +129,27 @@
 
 // fibonacciNumbers()
 
+// 13
+// let totalGraos = []
+//     let soma = 0
+//     for(let i = 1; i <=64; i++){
+//         if(i === 1){
+//             totalGraos.push(i)
+//         }else if(i === 2){
+//             totalGraos.push(i)
+//         }else{
+//             let proximoNumero = totalGraos[i -2] *2
+//             // console.log(proximoNumero)
+//             totalGraos.push(proximoNumero)
+//         }
+//     for(let contador = 0; contador < totalGraos.length; contador++){
+//         soma += totalGraos[contador]
+        
+//     }
+//     }
+//     console.log(totalGraos[63]*2)
+//     console.log(soma)
+
 // 14
 // let numero = parseFloat(prompt('Por favor, digite um numero:'))
 //   while(isNaN(numero) || numero < 0 || numero > 10){
